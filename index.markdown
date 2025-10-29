@@ -17,9 +17,22 @@ layout: default
 
     {% if post_date <= current_date %}
 
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      <lu>
+
+        <div class="card text-center">
+          <div class="card-header">
+            New
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{post.excerpt}}</p>
+            <a href="{{post.url}}" class="btn btn-primary">Read more</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            2 days ago
+          </div>
+        </div>
+      </lu>
 
     {% endif %}
 

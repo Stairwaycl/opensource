@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.4"
 
-#pidio render
+#pidio render y netlify
 gem 'csv', '~> 3.3', '>= 3.3.5'
 gem 'logger', '~> 1.7'
 gem 'base64', '~> 0.3.0'
