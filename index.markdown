@@ -4,24 +4,18 @@
 
 layout: default
 ---
+# News
 
 <ul>
   {% for post in site.posts %}
 
-
     {%- assign post_date = post.date | date: "%s" -%}
-
-
     {%- assign current_date = 'now' | date: "%s" -%}
-
-
     {% if post_date <= current_date %}
 
       <lu>
-
         <div class="card text-center">
           <div class="card-header">
-            New
           </div>
           <div class="card-body">
             <h5 class="card-title">{{ post.title }}</h5>
@@ -29,14 +23,11 @@ layout: default
             <a href="{{post.url}}" class="btn btn-primary">Read more</a>
           </div>
           <div class="card-footer text-body-secondary">
-            2 days ago
+            {{ post.date | date: "%s" | times: 1 | date: "%Y-%m-%d %H:%M:%S" | timeago }}
           </div>
         </div>
       </lu>
 
     {% endif %}
-
-
-
   {% endfor %}
 </ul>
