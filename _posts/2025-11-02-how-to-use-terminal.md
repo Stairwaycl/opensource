@@ -1,0 +1,19 @@
+---
+layout: post
+title: "How to use terminal in Ubuntu"
+---
+To launch the terminal, you must type
+
+**CTRL + Shift + T**
+
+That will open a window in the team's root directory. To view the directories, you can use
+
+**ls**
+
+which lists all the directories and files where you are currently positioned. To enter one of them, execute
+
+**cd /Directory-Name**
+
+To go back one directory, you just need to add two dots (`..`) after `cd`, like this:
+
+**cd ..**
