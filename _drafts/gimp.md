@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Ajustar un objeto o capa al tamaño del lienzo en GIMP 🎨"
+title: "Ajustar un objeto o capa al tamaño del lienzo y viceversa en GIMP 🎨"
+meta_description: 🎨 Escala capas y objetos en GIMP para que ocupen todo el lienzo. Aprende a usar la herramienta Escala (Shift + T) y la función de Recortar contenido para ajustar tus imágenes de forma precisa.
 ---
 
 Esta guía te ayudará a escalar un objeto o imagen para que **ocupe todo el lienzo** (área de trabajo) de tu proyecto en GIMP.
@@ -46,3 +47,15 @@ El objeto se seleccionará con un cuadro con los vértices y aristas ajustables.
 1.  Una vez que las dimensiones son correctas y se ajustan a tu lienzo, haz clic en el botón **Escalar (Scale)** en la ventana de diálogo.
 
 Tu elemento se habrá agrandado y ocupará todo el espacio del lienzo, completando la "página" de tu proyecto.
+
+------
+
+## ✂️ Caso Inverso: Ajustar el Lienzo a la Imagen
+
+Si lo que deseas es lo contrario —que el lienzo se ajuste a los límites de la capa o imagen visible, eliminando el espacio vacío— puedes usar esta opción rápida:
+
+Menú Principal:
+
+Imagen > Recortar contenido (Crop to Content)
+
+Al instante, el área de trabajo (lienzo) se reducirá para ajustarse perfectamente a los límites de las capas visibles en tu proyecto.
