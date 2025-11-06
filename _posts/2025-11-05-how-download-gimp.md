@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Essential Installation: How to Download and Install GIMP on Linux OS 🎨"
+tag: gimp
 ---
 
 # Essential Installation: How to Download and Install GIMP on Linux OS 🎨

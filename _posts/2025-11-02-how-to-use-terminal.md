@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to use terminal in Ubuntu"
+tag: ubuntu
 ---
 To launch the terminal, you must type
 
