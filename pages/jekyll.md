@@ -33,7 +33,7 @@ permalink: /jekyll/
             </a>
           </div>
 
-          <div class="card-footer text-muted">
+          <div class="card-footer">
             Published on {{ post.date | date: "%Y-%m-%d" }}
             <br>
             <small>Tags:

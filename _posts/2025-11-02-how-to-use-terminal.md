@@ -9,12 +9,20 @@ To launch the terminal, you must type
 
 That will open a window in the team's root directory. To view the directories, you can use
 
-**ls**
+<pre><code>
+➜ ls
+</code></pre>
+
 
 which lists all the directories and files where you are currently positioned. To enter one of them, execute
 
-**cd /Directory-Name**
+<pre><code>
+➜ cd /Directory-Name
+</code></pre>
 
 To go back one directory, you just need to add two dots (`..`) after `cd`, like this:
 
-**cd ..**
+
+<pre><code>
+➜ cd ..
+</code></pre>

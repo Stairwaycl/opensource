@@ -8,3 +8,38 @@ body {
 h1 {
   text-align: center;
 }
+
+.card {
+  background-color: #2c413f;
+  color: #f8f9fa;
+}
+
+/* Estilo para el Bloque de Código de tipo Terminal */
+
+/* 1. Contenedor <pre> (Fondo y Márgenes) */
+pre {
+  /* Color de fondo: Negro oscuro o casi negro */
+  background-color: #1e1e1e;
+  /* Padding para que el código no toque los bordes */
+  padding: 1.5em;
+  /* Redondear ligeramente las esquinas */
+  border-radius: 6px;
+  /* Usar una fuente monoespaciada para el código */
+  font-family: 'Consolas', 'Monaco', monospace;
+  /* Desactivar el borde si lo tienes por defecto */
+  border: none;
+  /* Asegurar que el texto largo se ajuste con scroll horizontal si es necesario */
+  overflow-x: auto;
+}
+
+/* 2. Contenido <code> (Color del Texto) */
+pre code {
+  /* Color del texto: Blanco brillante o verde/azul suave (depende de tu preferencia) */
+  color: #f8f8f2;
+  /* Eliminar el color de fondo si lo hereda del tema */
+  background-color: transparent;
+  /* Ajustar tamaño de fuente si lo deseas */
+  font-size: 0.95em;
+  /* Es importante eliminar padding o margin que pueda interferir */
+  padding: 0;
+}

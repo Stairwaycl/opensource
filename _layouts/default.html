@@ -46,10 +46,12 @@
 
 
 </head>
-<body class="highlight-area{% if page.url == '/blog.html' or page.layout == 'post' %} blog-background-gris{% endif %}">
+<body class="highlight-area">
 
   {% include navigation.html %}
   <div class="container p-4">
+    <h1>{{page.title}}</h1>
+
     {{ content }}
   </div>
 

@@ -15,20 +15,20 @@ layout: default
     {% if post_date <= current_date %}
 
       <div class="col-md-6 mb-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 shadow-sm text-light">
 
           <div class="card-header">
             <h5 class="mb-0">{{ post.title }}</h5>
           </div>
 
-          <div class="card-body">
+          <div class="card-body ">
             <p class="card-text">{{post.excerpt | strip_html | truncatewords: 30}}</p>
             <a href="{{ post.url | relative_url }}" class="btn btn-primary mt-2">
               Read more
             </a>
           </div>
 
-          <div class="card-footer text-muted">
+          <div class="card-footer">
             Published on: {{ post.date | date: "%Y-%m-%d" }}
           </div>
 
