@@ -3,48 +3,42 @@ layout: default
 permalink: /jekyll/
 ---
 
-# Jekyll Course
+# Jekyll Course 📚
 
 <p class="lead">
-  Here you will find tutorials, guides, and resources on Jekyll , the static site generator we use to build our blogs, ideal for a fast, Markdown-based workflow.
+  Here you will find tutorials, guides, and resources on Jekyll, the static site generator we use to build our blogs, ideal for a fast, Markdown-based workflow.
 </p>
 
 <div class="row">
-  {% assign jekyll_posts = site.posts | where: 'tags', 'jekyll' %}
+  {% assign jekyll_posts = site.posts | where: 'tags', 'jekyll' | reverse %}
 
   {% if jekyll_posts.size > 0 %}
 
     {% for post in jekyll_posts %}
 
-      <div class="col-md-6 mb-4">
-        <div class="card h-100 shadow-sm">
+      <div class="col-12 mb-4">
+        <div class="card h-100 shadow-sm position-relative">
 
-          <div class="card-header">
-            <h5 class="mb-0">{{ post.title }}</h5>
+          <div class="card-header text-white">
+
+            <h5 class="mb-0">
+                <a href="{{ post.url | relative_url }}" class="text-white text-decoration-none">
+                    {{ post.title }}
+                </a>
+            </h5>
           </div>
 
           <div class="card-body">
             <p class="card-text">
-              {{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}
+                {{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}
             </p>
-
-            <a href="{{ post.url | relative_url }}" class="btn btn-primary mt-2">
-              Read Full Article
-            </a>
+            <a href="{{ post.url | relative_url }}" class="stretched-link"></a>
           </div>
 
-          <div class="card-footer">
+          <div class="card-footer bg-secondary text-white">
             Published on {{ post.date | date: "%Y-%m-%d" }}
             <br>
-            <small>Tags:
-              {% for tag in post.tags %}
-                {% if tag == "jekyll" %}
-                  <span class="badge bg-primary">{{ tag }}</span>
-                {% else %}
-                  <span class="badge bg-secondary">{{ tag }}</span>
-                {% endif %}
-              {% endfor %}
-            </small>
+
           </div>
 
         </div>

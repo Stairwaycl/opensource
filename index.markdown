@@ -15,7 +15,7 @@ layout: default
     {% if post_date <= current_date %}
 
       <div class="col-md-6 mb-4">
-        <div class="card h-100 shadow-sm text-light">
+        <div class="card h-100 shadow-lg text-light rounded-4">
 
           <div class="card-header">
             <h5 class="mb-0">{{ post.title }}</h5>
