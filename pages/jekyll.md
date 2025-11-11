@@ -1,12 +1,13 @@
 ---
 layout: default
 permalink: /jekyll/
+title: "About  Ruby 📚"
 ---
 
-# Jekyll Course 📚
 
 <p class="lead">
-  Here you will find tutorials, guides, and resources on Jekyll, the static site generator we use to build our blogs, ideal for a fast, Markdown-based workflow.
+  Here you will find tutorials, guides, and resources focused on programming with Ruby,
+  especially in the context of static site development with Jekyll.
 </p>
 
 <div class="row">
