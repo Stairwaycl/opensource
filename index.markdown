@@ -28,8 +28,22 @@ layout: default
             </a>
           </div>
 
-          <div class="card-footer">
-            Published on: {{ post.date | date: "%Y-%m-%d" }}
+         <div class="card-footer d-flex justify-content-between align-items-center">
+
+            <small class="text-light">
+              Published on: {{ post.date | date: "%Y-%m-%d" }}
+            </small>
+
+            {% if post.tags.size > 0 %}
+              <div>
+                {% for tag in post.tags %}
+                  <span class="badge text-bg-primary rounded-pill ms-1">
+                    {{ tag }}
+                  </span>
+                {% endfor %}
+              </div>
+            {% endif %}
+
           </div>
 
         </div>
