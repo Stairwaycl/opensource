@@ -9,6 +9,8 @@ permalink: /gimp/
   Here you will find all tutorials, guides, and resources on the use of GIMP (GNU Image Manipulation Program) , a fundamental tool in open-source development and graphic design, perfect for complementing your work in Jekyll and Ubuntu.
 </p>
 
+references: [GIMP Docs](https://docs.gimp.org/3.0/en/)
+
 <div class="row">
   {% assign gimp_posts = site.posts | where: 'tags', 'gimp' %}
 
