@@ -3,11 +3,10 @@ layout: default
 ---
 
 <p>
-  Published: {{ page.date | date_to_string }}
+  Published: {{ page.date | date_to_string }} {{ page.author }}
 
-  {% comment %}
-    Comprueba si existe la fecha de modificación Y si es diferente a la fecha de publicación original.
-  {% endcomment %}
+
+
   {% if page.last_modified_at and page.last_modified_at != page.date %}
 
     <br><small class="text-muted">Última Actualización:
