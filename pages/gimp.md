@@ -1,18 +1,16 @@
 ---
 layout: default
-permalink: /gimp/
+permalink: /graphic-design/
 ---
 
-# GIMP Course
+# Graphic Design
 
 <p class="lead">
-  Here you will find all tutorials, guides, and resources on the use of GIMP (GNU Image Manipulation Program) , a fundamental tool in open-source development and graphic design, perfect for complementing your work in Jekyll and Ubuntu.
+  Here you will find tutorials, guides, and resources dedicated to Graphic Design. Whether you are mastering open-source tools like GIMP or exploring general visual principles, these contents are perfect for complementing your work in Jekyll and Ubuntu.
 </p>
 
-references: [GIMP Docs](https://docs.gimp.org/3.0/en/)
-
 <div class="row">
-  {% assign gimp_posts = site.posts | where: 'tags', 'gimp' %}
+  {% assign gimp_posts = site.posts | where: 'tag', 'graphic' %}
 
   {% if gimp_posts.size > 0 %}
 
@@ -35,7 +33,7 @@ references: [GIMP Docs](https://docs.gimp.org/3.0/en/)
             </a>
           </div>
 
-          <div class="card-footer>
+          <div class="card-footer">
             Published on {{ post.date | date: "%Y-%m-%d" }}
             <br>
             <small>Tags:
@@ -48,7 +46,6 @@ references: [GIMP Docs](https://docs.gimp.org/3.0/en/)
               {% endfor %}
             </small>
           </div>
-
         </div>
       </div>
 
