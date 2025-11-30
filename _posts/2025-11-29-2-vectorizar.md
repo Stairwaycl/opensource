@@ -2,16 +2,16 @@
 layout: post
 tag: graphic
 ---
-<h1>¿Qué es Vectorizar y Por Qué es Vital para un Logo?</h1>
-<p>Si alguna vez has intentado agrandar un logo y ha terminado viéndose borroso y pixelado, la respuesta está en la <b>vectorización</b>, o sea, convertir la imagen hecha con pixeles a una imagen hecha con fórmulas matemáticas.</p>
+<h1>What is Vectorization and Why is it Vital for a Logo?</h1>
+<p>If you have ever tried to enlarge a logo only to have it end up looking blurry and pixelated, the answer lies in <b>vectorization</b>—that is, converting an image made of pixels into an image made of mathematical formulas.</p>
 <div class="key-concept">
-    <p>Un gráfico vectorial (como el formato <b>SVG</b>) no está compuesto por píxeles (puntos de color), sino por <b>fórmulas matemáticas</b>. Estas fórmulas definen líneas, curvas y formas. Es como si el archivo guardara la instrucción: <b>Dibuja un círculo rojo con un radio de 5 cm</b>.</p>
+    <p>A vector graphic (like the <b>SVG</b> format) is not composed of pixels (dots of color), but rather <b>mathematical formulas</b>. These formulas define lines, curves, and shapes. It is as if the file stores the instruction: <b>"Draw a red circle with a radius of 5 cm."</b></p>
 </div>
 
-<p>Esta naturaleza matemática es lo que hace que la vectorización sea vital, ya que el logo se verá nítido y sin pérdida de calidad, ya sea que se imprima en una tarjeta de presentación (pequeño) o en una valla publicitaria (gigante), y se puede modificar colores y formas fácilmente sin tener que empezar de cero.</p>
+<p>This mathematical nature is what makes vectorization vital. It ensures the logo remains sharp with no loss of quality, whether printed on a business card (small) or a billboard (giant). Additionally, colors and shapes can be easily modified without having to start from scratch.</p>
 
-<h2>El Formato Maestro: SVG</h2>
-<p>El formato más común para los gráficos vectoriales en la web es <b>SVG (Scalable Vector Graphics)</b>. Este es el archivo <b>maestro</b> que todo diseñador profesional entrega a su cliente.</p>
+<h2>The Master Format: SVG</h2>
+<p>The most common format for vector graphics on the web is <b>SVG (Scalable Vector Graphics)</b>. This is the <b>master</b> file that every professional designer delivers to their client.</p>
 
-<h2>¿Qué herramienta me sirve para lograr vectorizar?</h2>
-<p>Herramientas como Inkscape lo hacen automáticamente (Trazar Mapa de Bits) para diseños simples o de forma manual para diseños más complejos.</p>
+<h2>Which tool can I use to vectorize?</h2>
+<p>Tools like Inkscape can do this automatically (Trace Bitmap) for simple designs, or allow for manual tracing for more complex designs.</p>
