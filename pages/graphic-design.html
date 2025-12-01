@@ -1,0 +1,85 @@
+---
+layout: default
+permalink: /graphic-design/
+title: "Graphic Design"
+description: "Tutorials, guides, and resources dedicated to Graphic Design using open-source tools like GIMP and Inkscape. Explore visual principles and techniques for editing and vectorization."
+---
+
+
+<p class="lead">
+  Here you will find tutorials, guides, and resources dedicated to Graphic Design with open-source tools and exploring general visual principles.
+</p>
+
+<div class="row">
+
+  <div class="col-lg-3 mb-4">
+    <div class="card shadow-sm">
+        <div class="card-header">
+            <strong>Herramientas Open Source</strong>
+        </div>
+        <div class="card-body p-0">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-paint-brush"></i> <strong>GIMP</strong>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fas fa-vector-square"></i> <strong>Inkscape</strong>
+                </a>
+            </nav>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-lg-9">
+    <div class="row">
+      {% assign gimp_posts = site.posts | where: 'tags', 'graphic' %}
+
+      {% if gimp_posts.size > 0 %}
+
+        {% for post in gimp_posts %}
+
+          <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm">
+
+              <div class="card-header">
+                <h5 class="mb-0">{{ post.title }}</h5>
+              </div>
+
+              <div class="card-body">
+                <p class="card-text">
+                  {{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}
+                </p>
+
+                <a href="{{ post.url | relative_url }}" class="btn btn-primary mt-2">
+                  Read Full Article
+                </a>
+              </div>
+
+              <div class="card-footer">
+                Published on {{ post.date | date: "%Y-%m-%d" }}
+                <br>
+                <small>Tags:
+                  {% for tag in post.tags %}
+                    {% if tag == "gimp" %}
+                      <span class="badge bg-primary">{{ tag }}</span>
+                    {% else %}
+                      <span class="badge bg-secondary">{{ tag }}</span>
+                    {% endif %}
+                  {% endfor %}
+                </small>
+              </div>
+            </div>
+          </div>
+
+        {% endfor %}
+
+      {% else %}
+        <div class="col-12">
+          <div class="alert alert-warning" role="alert">
+            There are no posts yet with the "GIMP" tag. They are on the way!
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  </div>

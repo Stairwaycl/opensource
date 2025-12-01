@@ -1,7 +1,9 @@
 ---
 layout: default
-permalink: /jekyll/
+permalink: /ruby/
 title: "About  Ruby 📚"
+description: "Programming tutorials and guides focused on Ruby, especially in the context of static site development with the Jekyll framework. Learn how to build and customize your blog."
+keywords: "Ruby, Jekyll, Ruby programming, static site development, opencodecl, Jekyll tutorials, Ruby guide"
 ---
 
 
@@ -20,10 +22,10 @@ title: "About  Ruby 📚"
       <div class="col-12 mb-4">
         <div class="card h-100 shadow-sm position-relative">
 
-          <div class="card-header text-white">
+          <div class="card-header">
 
             <h5 class="mb-0">
-                <a href="{{ post.url | relative_url }}" class="text-white text-decoration-none">
+                <a href="{{ post.url | relative_url }}" class="text-danger">
                     {{ post.title }}
                 </a>
             </h5>

@@ -1,9 +1,11 @@
 ---
 layout: default
 permalink: /ubuntu/
+title: "Ubuntu Course"
+description: "Comprehensive tutorials and guides for Ubuntu Linux OS. Learn how to optimize your workflow for development, graphic design (GIMP/Inkscape), static sites (Jekyll), and code editing (VS Code)."
+keywords: "Ubuntu Linux OS, Ubuntu tutorials, Linux workflow, VS Code on Ubuntu, Jekyll development, open-source operating system"
 ---
 
-# Ubuntu Course
 
 <p class="lead">
   Here you will find tutorials, guides, and resources on Ubuntu Linux OS, the open-source operating system we use in our workflow for development with Jekyll, VS Code, and other tools.
